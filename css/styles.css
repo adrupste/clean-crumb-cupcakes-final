@@ -109,7 +109,7 @@ nav a:hover {
     flex-direction: column;   
 }
 
-.hero-text {
+.hero-text, .about-hero-text {
     background-color: rgba(245, 245, 245, 0.502);
     max-width: 55%;
     border-radius: .5rem;
@@ -117,17 +117,21 @@ nav a:hover {
     text-align: right; 
 }
 
-.hero-text h2, .hero-text p {
+.about-hero-text {
+    background-color: rgba(245, 245, 245, 0.7); 
+}
+
+.hero-text h2, .hero-text p, .about-hero-text h2, .about-hero-text p {
     margin: 1.5rem; 
     text-align: right;
 }
 
-.hero-text h2, .gluten-free-cupcakes h2 {
+.hero-text h2, .about-hero-text h2, .gluten-free-cupcakes h2 {
     font-size: var(--page-headers);
     font-family: Satisfy, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode'; 
 }
 
-.hero-text p {
+.hero-text p, .about-hero-text p {
     font-size: var(--body-text);
 }
 
@@ -408,14 +412,14 @@ select {
 
     /* HERO */
 
-    .hero-text {
+    .hero-text, .about-hero-text{
         background-color: rgba(245, 245, 245, 0.74);
         max-width: 100%;
         border-radius: 0; 
         text-align: center;  
     }
 
-    .hero-text h2, .hero-text p {
+    .hero-text h2, .hero-text p, .about-hero-text h2, .about-hero-text p {
         text-align: center; 
         margin-top: 1rem; 
     }
@@ -507,7 +511,7 @@ select {
 
     /* HERO */
 
-    .hero-text {
+    .hero-text, .about-hero-text{
         margin-top: 2rem; 
     }
 
